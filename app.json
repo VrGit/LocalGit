@@ -1,6 +1,6 @@
 {
-  "name": "Webhook-echo-sample",
-  "description": "Webhook echo sample",
-  "repository": "https://github.com/SunilSyal/Webhook-and-API.AI-Samples.git",
+  "name": "vr-sample",
+  "description": "VR sample",
+  "repository": "https://github.com/VrGit/LocalGit.git",
   "keywords": ["api.ai", "dialogflow", "natural language"]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "webhook-echo-sample",
+  "name": "vr-sample",
   "version": "1.0.0",
-  "description": "Webhook echo sample",
+  "description": "VR sample",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
