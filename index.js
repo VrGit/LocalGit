@@ -20,8 +20,11 @@ restService.post("/echo", function(req, res) {
     req.body.result.parameters.echoText
       ? req.body.result.parameters.echoText
       : "Seems like some problem. Speak again.";
+                 
+  var answer = speech + " est gentil" ;
+  if (speech=="bastien") answer = speech + " est méchant" ;
   return res.json({
-                  speech: "Je réponds " + speech,
+                  speech: answer,
     displayText: speech,
     source: "vr-sample1"
   });
