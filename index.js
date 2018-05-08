@@ -22,7 +22,7 @@ restService.post("/echo", function(req, res) {
       : "Seems like some problem. Speak again.";
                  
   var answer = speech + " est gentil" ;
-  if (speech=="bastien") answer = speech + " est méchant" ;
+  if (speech.toLowerCase()=="bastien") answer = speech + " est méchant" ;
   return res.json({
                   speech: answer,
     displayText: speech,
