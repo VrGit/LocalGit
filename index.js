@@ -23,7 +23,7 @@ restService.post("/echo", function(req, res) {
   return res.json({
                   speech: "Voila:" && speech,
     displayText: speech,
-    source: "vr-sample"
+    source: "vr-sample1"
   });
 });
 
@@ -116,7 +116,7 @@ restService.post("/audio", function(req, res) {
   return res.json({
     speech: speech,
     displayText: speech,
-    source: "vr-sample"
+    source: "vr-sample2"
   });
 });
 
@@ -126,7 +126,7 @@ restService.post("/video", function(req, res) {
       '<speak>  <audio src="https://www.youtube.com/watch?v=VX7SSnvpj-8">did not get your MP3 audio file</audio></speak>',
     displayText:
       '<speak>  <audio src="https://www.youtube.com/watch?v=VX7SSnvpj-8">did not get your MP3 audio file</audio></speak>',
-    source: "vr-sample"
+    source: "vr-sample3"
   });
 });
 
@@ -188,7 +188,7 @@ restService.post("/slack-test", function(req, res) {
   return res.json({
     speech: "speech",
     displayText: "speech",
-    source: "vr-sample",
+    source: "vr-sample4",
     data: {
       slack: slack_message
     }
